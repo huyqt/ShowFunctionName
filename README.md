@@ -3,6 +3,24 @@ ShowFunctionName
 
 Sublime Text Plugin that displays the name of the current function that the cursor is on.
 
+Usage
+=====
+
+Just bind a key to the show_function_name command, and when pressed, it will display the current function name, if any, in your status bar.
+
+```javascript
+{
+  "keys": ["ctrl+shift+x"],
+  "command": "show_function_name"
+}
+```
+
+Todo
+====
+
+- Improve performance by going back by words instead of individual characters
+- Add optional realtime update / thread support
+
 # License
 
 ShowFunctionName is released under the MIT license.
