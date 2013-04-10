@@ -3,6 +3,10 @@ ShowFunctionName
 
 Sublime Text Plugin that displays the name of the current function that the cursor is on.
 
+# Installation
+- Use Package Control to install
+- Or you can download/clone directly and drop into your Sublime Text User Packages directory
+
 Usage
 =====
 
@@ -19,7 +23,7 @@ Todo
 ====
 
 - Improve performance by going back by words instead of individual characters
-- Add optional realtime update / thread support
+- Add optional realtime update/thread support
 
 # License
 
